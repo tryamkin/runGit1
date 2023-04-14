@@ -5,7 +5,7 @@ name: CI-Tryam
 
 on:
   pull_request:
-    branches: [main]
+    branches: [test]
 
 jobs:
   run-test:
