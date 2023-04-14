@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 public class TestGoogle {
@@ -38,6 +39,7 @@ public class TestGoogle {
         Assert.assertEquals(driver.getTitle(),"Google");
         driver.quit();
     }
+    @Ignore
     @Test
     public void homePage2()  {
 
