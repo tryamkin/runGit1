@@ -45,7 +45,7 @@ public class TestGoogle {
         chromeOptions.addArguments("--remote-allow-origins=*", "--headless", "--window-size=1920,1080");
         WebDriver driver = new ChromeDriver(chromeOptions);
         driver.get("https://www.google.com/");
-        Assert.assertEquals(driver.getTitle(),"Google");
+        Assert.assertEquals(driver.getTitle(),"Googl");
         driver.quit();
     }
 }
