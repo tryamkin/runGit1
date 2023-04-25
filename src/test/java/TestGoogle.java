@@ -39,15 +39,5 @@ public class TestGoogle {
         Assert.assertEquals(driver.getTitle(),"Google");
         driver.quit();
     }
-    @Ignore
-    @Test
-    public void homePage2()  {
 
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--remote-allow-origins=*", "--headless", "--window-size=1920,1080");
-        WebDriver driver = new ChromeDriver(chromeOptions);
-        driver.get("https://www.google.com/");
-        Assert.assertEquals(driver.getTitle(),"Googl");
-        driver.quit();
-    }
 }
